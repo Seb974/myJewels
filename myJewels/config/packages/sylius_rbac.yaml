@@ -1,0 +1,2 @@
+imports:
+    - { resource: "@SyliusRbacPlugin/Resources/config/config.yml" }

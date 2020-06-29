@@ -1,0 +1,4 @@
+sylius_rbac:
+    custom_sections:
+        bitbag_cms:
+            - bitbag_sylius_cms_plugin_admin

@@ -1,0 +1,71 @@
+sylius_rbac:
+    ui:
+        rbac: Accès
+        permission:
+            bitbag_cms: Gestion de contenu
+
+bitbag_sylius_wishlist_plugin:
+    ui:
+        wishlist: Favoris
+        add_to_wishlist: Ajouter aux favoris
+        remove_from_wishlist: Retirer des favoris
+        added_to_cart: Vos articles favoris ont bien été ajoutés à votre panier.
+        add_items_to_cart: Ajouter au panier
+
+setono_sylius_promotion_extensions:
+    form:
+        promotion_rule:
+            has_at_least_n_from_taxons: Possède au moins x articles des catégories
+            has_n_from_taxon:
+                taxons: Catégories
+                quantity: Quantité
+        promotion_action:
+            items_amount: Montant unitaire des articles
+            item_fixed_price: Prix de l'article
+            items_fixed_price: Prix des articles
+
+sylius:
+    menu:
+        admin:
+            main:
+                catalog:
+                    taxons: Catégories
+    form:
+        product:
+            main_taxon: Catégorie principale
+        promotion_rule:
+            has_at_least_one_from_taxons: A au moins une des catégories
+            total_price_of_items_from_taxon: Prix total des articles de la catégorie
+            has_taxon:
+                taxons: Catégories
+            total_of_items_from_taxon:
+                taxon: Catégorie
+        
+        promotion_filter:
+            taxons: Filtre de catégories
+
+    ui:
+        new_taxon: Nouvelle catégorie
+        taxons: Catégories
+        product_taxon: Classement du produit
+        show_product_in_shop_page: Voir le produit sur la boutique en ligne
+        toggle_all: Tout déplier
+        manage_taxons: Gérer les catégories
+        main_taxon: Catégorie principale
+        show_product: Vue du produit
+        tracked: Stocks suivis
+        shipping_required: Expédition requise
+        shipping_not_required: Expédition non requise
+        taxonomy: Classement
+        product_taxons: Catégories
+        width: Largeur
+        height: Hauteur
+        depth: Profondeur
+        weight: Poids
+        meta_keywords: mots-clés
+        short_description: Brève description
+        no_associations_to_display: Aucune association à afficher
+
+    resource:
+        create: L'association a bien été créée.
+        update: L'association a bien été mise à jour.
