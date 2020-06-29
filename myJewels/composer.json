@@ -15,14 +15,15 @@
         }
     ],
     "require": {
-        "php": "^7.3",
+        "php": "^7.4.7",
         "bitbag/cms-plugin": "^2.4",
         "bitbag/wishlist-plugin": "^1.4",
         "setono/sylius-promotion-extensions-plugin": "^1.1",
         "sylius/rbac-plugin": "^0.3.0",
         "sylius/sylius": "~1.7.0",
         "symfony/dotenv": "^4.4",
-        "symfony/flex": "^1.2"
+        "symfony/flex": "^1.2",
+        "tilleuls/sylius-click-n-collect-plugin": "^0.1.5"
     },
     "require-dev": {
         "behat/behat": "^3.6.1",
@@ -80,7 +81,7 @@
     },
     "config": {
         "platform": {
-            "php": "7.3.15"
+            "php": "7.4.7"
         },
         "preferred-install": {
             "*": "dist"
